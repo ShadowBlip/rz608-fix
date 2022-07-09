@@ -8,15 +8,24 @@ Fixes for the RZ608/MT7921K WiFi module in Linux using systemd.
 # Installing
 
 ## From the AUR
-- Run ```pikaur -S rz608-fix-git``` as root.
+```
+sudo pikaur -S rz608-fix-git
+sudo udevadm control -R
+```
 
 ## From source
-- Run ```make install``` as root.
+```
+sudo make install
+```
 
 # Removing
 
 ## From the AUR
-- Run ```pikaur -R rz608-fix-git``` as root.
+```
+sudo pikaur -R rz608-fix-git
+```
 
 ## From source
-- Run ```make clean``` as root.
+```
+sudo make clean
+```
